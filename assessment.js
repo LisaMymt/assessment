@@ -81,7 +81,7 @@
      * @return {string} 診断結果
      */
     function assessment(userName) {
-      // 全文字のコード番号を取得してそれを足し合わせ
+      // 全文字のコード番号を取得してそれを足し合わせる
       let sumOfCharCode = 0;
       for (let i = 0; i < userName.length; i++) {
         sumOfCharCode = sumOfCharCode + userName.charCodeAt(i);
